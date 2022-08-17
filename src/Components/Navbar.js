@@ -19,6 +19,9 @@ const Navbar = () => {
                                 <Link className="nav-link navigation active text-primary me-4" aria-current="page" as={Link} to="/allproducts">All Products</Link>
                             </li>
                             <li class="nav-item">
+                                <Link className="nav-link navigation active text-primary me-4" aria-current="page" as={Link} to="/allreview">Customer Review</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link className="nav-link navigation active text-primary" aria-current="page" as={Link} to="/all-order">All Order</Link>
                             </li>
                         </ul>
