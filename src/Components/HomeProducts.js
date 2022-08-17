@@ -12,7 +12,7 @@ const HomeProducts = () => {
     return (
         <div className='container'>
             <div className="row container">
-                <h1 className="text-primary text-center mt-4 mb-4">Latest Products</h1>
+                <h1 className="text-primary text-center mt-4 mb-4">Featured Products</h1>
                 {
                     products.slice(0, 12).map(product => <SingleProduct
                         key={product._id}
