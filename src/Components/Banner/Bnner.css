@@ -10,3 +10,11 @@
     transform: scale(1.1);
     transition: transform, 2s;
 }
+
+.box-height {
+    height: 320px;
+}
+
+.cursor {
+    cursor: pointer;
+}
