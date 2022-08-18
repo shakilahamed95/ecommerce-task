@@ -3,7 +3,7 @@ import useUser from '../Hooks/useUser';
 import SingleReview from './SingleReview';
 
 const CustomerReview = () => {
-    const [users, setUsers] = useUser()
+    const [users] = useUser()
     return (
         <div className='container'>
             <div className="row container">
