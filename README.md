@@ -3,7 +3,7 @@
 ## Live Link 
 
 
-[Create React App](https://github.com/facebook/create-react-app).
+[https://ecommerce-task-blond.vercel.app/](https://ecommerce-task-blond.vercel.app/).
 
 
 
