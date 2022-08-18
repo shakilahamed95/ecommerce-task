@@ -15,12 +15,12 @@ const HomeProducts = () => {
                 <h1 className="text-primary text-center mt-4 mb-4">Featured Products</h1>
                 {
                     products.slice(0, 12).map(product => <SingleProduct
-                        key={product._id}
+                        key={product.product_id}
                         product={product}
                     ></SingleProduct>)
                 }
             </div>
-            <h5 onClick={handlenavigate} className='d-flex align-items-center justify-content-end mt-3 mb-3 text-primary cursor'>View All Products <i class="fas fa-arrow-right p-2"></i></h5>
+            <h5 onClick={handlenavigate} className='d-flex align-items-center justify-content-end mt-3 mb-3 text-primary cursor'>View All Products <i className="fas fa-arrow-right p-2"></i></h5>
         </div>
     );
 };

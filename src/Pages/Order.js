@@ -62,7 +62,7 @@ const Order = () => {
             </div>
             <div>
                 <h3 className='text-primary text-center mb-5'>Total Sell In August 2022</h3>
-                <table class="table">
+                <table className="table">
                     <thead>
                         <tr>
                             <th scope="col">Order Id</th>
