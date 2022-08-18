@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import AllProducts from './Pages/AllProducts';
 import CustomerReview from './Components/CustomerReview';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/allproducts' element={<AllProducts></AllProducts>}></Route>
         <Route path='/allreview' element={<CustomerReview></CustomerReview>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
