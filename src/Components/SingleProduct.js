@@ -14,7 +14,7 @@ const SingleProduct = ({ product }) => {
                     </div>
 
                 </div>
-                <button className='btn mb-2 ms-5'>Buy Now</button>
+                <button className='btn mb-2 ms-5 mt-3 btn-primary'>Buy Now</button>
             </div>
         </div>
     );
